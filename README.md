@@ -1,26 +1,26 @@
-## Introduction
+- ## Introduction
 
-Goal is to compare the performance of the classifiers we encountered in this section, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines. We will utilize a dataset related to marketing bank products over the telephone.
-
-Our dataset comes from the UCI Machine Learning repository link. The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
-
-## Objective
-Our dataset comes from the UCI Machine Learning repository link. The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
-
-## Evaluated Models
-Trained and tuned the following models:
-
-Logistic Regression
-KNNeighbors (KNN) 
-Decision Tree
-Support Vector Machine (SVM)
-XGBoost
-GradientBoosting
-
-## Performance
-
-| Model                        | Train Accuracy | Test Accuracy | CV Score            | 
-|------------------------------|----------------|---------------|---------------------|
+- Goal is to compare the performance of the classifiers we encountered in this section, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support - Vector Machines. We will utilize a dataset related to marketing bank products over the telephone.
+- 
+- Our dataset comes from the UCI Machine Learning repository link. The data is from a Portugese banking institution and is a collection of the results of multiple - marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
+- 
+- ## Objective
+- Our dataset comes from the UCI Machine Learning repository link. The data is from a Portugese banking institution and is a collection of the results of multiple - marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
+- 
+- ## Evaluated Models
+- Trained and tuned the following models:
+- 
+- Logistic Regression
+- KNNeighbors (KNN) 
+- Decision Tree
+- Support Vector Machine (SVM)
+- XGBoost
+- GradientBoosting
+- 
+- ## Performance
+- 
+- | Model                        | Train Accuracy | Test Accuracy | CV Score            | 
+- |------------------------------|----------------|---------------|---------------------|
 | Logistic Regression          | 91.0           | 90.0          | 0.9078907435508347  |
 | KNNeighbors                  | 93.0           | 89.0          | 0.9018209408194233  |
 | Decision Tree                | 100.0          | 88.0          | 0.8851896813353566  |
