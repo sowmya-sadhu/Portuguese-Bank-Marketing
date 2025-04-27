@@ -30,12 +30,12 @@ Trained and tuned the following models:
 
 ## Highligts of Confusion Matrix
 
-False Positive, means the client do NOT SUBSCRIBED to term deposit, but the model thinks he did.
-False Negative, means the client SUBSCRIBED to term deposit, but the model said he dont.
-The first one its most harmful, because we think that we already have that client but we dont and maybe we lost him in other future campaings
-The second its not good but its ok, we have that client and in the future we'll identify that in truth he's already our client
+- False Positive, means the client do NOT SUBSCRIBED to term deposit, but the model thinks he did.
+- False Negative, means the client SUBSCRIBED to term deposit, but the model said he dont.
+- The first one its most harmful, because we think that we already have that client but we dont and maybe we lost him in other future campaings
+- The second its not good but its ok, we have that client and in the future we'll identify that in truth he's already our client
 
 ## Recommendations
-SMOTE to be applied to solve Class imbalance
-After the analysis we see that our interest is over decreasing the False Negative means the client SUBSCRIBED to term deposit, but the model said he dont which indicates RECALL. So, we conclude that the model with high RECALL would be best suited for the problem statement
+- SMOTE to be applied to solve Class imbalance
+- After the analysis we see that our interest is over decreasing the False Negative means the client SUBSCRIBED to term deposit, but the model said he dont which indicates RECALL. So, we conclude that the model with high RECALL would be best suited for the problem statement
 
