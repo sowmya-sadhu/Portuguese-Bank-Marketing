@@ -4,10 +4,10 @@ Goal is to compare the performance of the classifiers we encountered in this sec
 
 Our dataset comes from the UCI Machine Learning repository link. The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
 
-##Objective
+## Objective
 Our dataset comes from the UCI Machine Learning repository link. The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. We will make use of the article accompanying the dataset here for more information on the data and features.
 
-##Evaluated Models
+## Evaluated Models
 Trained and tuned the following models:
 
 Logistic Regression
@@ -17,7 +17,7 @@ Support Vector Machine (SVM)
 XGBoost
 GradientBoosting
 
-##Performance
+## Performance
 
 | Model                        | Train Accuracy | Test Accuracy | CV Score            | 
 |------------------------------|----------------|---------------|---------------------|
@@ -28,14 +28,14 @@ GradientBoosting
 | XGBoost                      | 95.0           | 91.0          | 0.9111987860394537  |
 | GradientBoosting             | 92.0           | 91.0          | 0.9154779969650987  |
 
-##Highligts of Confusion Matrix
+## Highligts of Confusion Matrix
 
 False Positive, means the client do NOT SUBSCRIBED to term deposit, but the model thinks he did.
 False Negative, means the client SUBSCRIBED to term deposit, but the model said he dont.
 The first one its most harmful, because we think that we already have that client but we dont and maybe we lost him in other future campaings
 The second its not good but its ok, we have that client and in the future we'll identify that in truth he's already our client
 
-##Recommendations
+## Recommendations
 SMOTE to be applied to solve Class imbalance
 After the analysis we see that our interest is over decreasing the False Negative means the client SUBSCRIBED to term deposit, but the model said he dont which indicates RECALL. So, we conclude that the model with high RECALL would be best suited for the problem statement
 
